@@ -1,0 +1,50 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+a {text-decoration: none;}
+li {list-style-type: none;}
+.bluebg {background-color: #207dff;}
+.banner {background-image: url("../images/bg_3.jpg.webp");background-size: cover;}
+.blue {color: #207dff;}
+.navcntr {background-color: #e6e6e6a3;}
+.toplist li {font-size: 19px;font-weight: 600;}
+.reddiv button {background-color: #ff5f57;color: white;font-size: 14px;padding: 12px;}
+.head-1 {font-size: 80px;color: black;}
+.para {font-size: 18px;line-height: 1.6;letter-spacing: 0.2px;}
+.bluediv button {background-color: #207dff;}
+.imgcntr-1 {background-image: url("../images/about.jpg.webp");background-position: bottom;background-size: cover;}
+.head-2 {font-size: 45px;color: black;}
+.head-3 {font-size: 22px;font-weight: 600;}
+.red {color: #ff5f57;}
+.i-size i {font-size: 40px;}
+.free {font-size: 16px;letter-spacing: 1.8px;}
+.redbtn button {background-color: #ff5f57;color: white;}
+.imgcntr-2 {background-image: url("../images/bg_2.jpg.webp");background-position: center 50%;background-size: 100%;}
+.searchbg {background-color: #3937374f;}
+.head-4 {font-size: 55px;color: black;}
+.white button {background-color: white;font-weight: 600;font-size: 18px;}
+.imgcntr-3 {background-image: url("../images/dept-1.jpg.webp");background-repeat: no-repeat;background-size: cover;background-position: 47%;}
+.dept i {font-size: 40px;}
+.name {letter-spacing: 1.8px;}
+.patientbg {background-color: #2197ffbf;}
+.head-5 {font-size: 50px;}
+.thick {font-weight: 600;}
+.head-6 {font-size: 18px;}
+.contact i {font-size: 30px;}
+.imgcntr-4 img {width: 150px;height: 150px;border-radius: 50%;}
+.icon {border-radius: 50%;width: 40px;height: 40px;position: relative;left: 30px;bottom: 30px;margin: auto;font-size: 45px;background-color: #ff5f57;}
+.banner-1 {background-image: url("../images/bg_3.jpg.webp");background-size: 149%;}
+.f-icon i {width: 45px;height: 39px;border-radius: 50%;font-size: 24px;text-align: center;}
+.u-list {list-style-type: disclosure-closed;}
+.ulist {padding-left: 16px;}
+.footer {background-image: url("../images/footer-bg.jpg.webp");background-size: cover;background-position: center;}
+.footerbg {background-color: rgba(255, 255, 255, 0.64);}
+.td-1 {border-right: 1px solid #ffffff42; border-bottom: 1px solid #ffffff42;}
+.td-2 {border-top: 1px solid #ffffff42;border-left: 1px solid #ffffff42;}
+@media all and (min-width: 5px) and (max-width: 767.98px){
+    .head-1 {font-size: 60px;}
+    .imgcntr-2 {background-size: cover;}
+    .head-4 {font-size: 40px;}
+    .banner-1 {background-size: cover;}
+}
+@media all and (min-width:768px)and (max-width:992px){
+    .banner-1 {background-size: cover;}
+}
