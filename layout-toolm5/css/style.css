@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-serif;background-color: white;}
+li {list-style-type: none;}
+a {text-decoration: none;color: black;}
+.yel {background-color: rgba(214, 211, 24, 0.988);}
+.white {background-color: white;}
+.grey {background-color:#d0cdcd;}
+.button {border: 2px solid black; border-radius: 35px;}
+.button:hover , a:hover{background-color: powderblue;}
+.cntr {text-align: center;}
+.bold {font-weight: bold;}
+.flex {display: flex;}
+.border {border-radius: 35px;}
+.content {width: 99.9%;margin: 0 auto;}
+.navigation {width: 100%;}
+.navhead {width: 30%;text-align: left;margin: 0 0 0 5%;}
+.navhead > h2 {font-size: 30px;}
+.navigation > ul {width: 70%;}
+.navbutton {width: fit-content;display: contents;}
+.list {float: left; padding: 12px; font-size: 18px;}
+.list > a {padding: 20px;}
+.button .bi {color: rgba(214, 211, 24, 0.988);background-color: black;border-radius: 50%; padding: 6px;}
+.banner {width: 100%; margin: 2% auto;}
+.fluid {width: 95%; margin: 0 auto; padding: 10px;}
+.column {width: 50%;padding: 50px;}
+.heading {font-size: 70px;font-weight: 100;}
+.para {font-size: 36px;}
+.white .bi {color: white;}
+.fluid .button {padding: 15px;font-size: 20px;}
+.imgcontainer > img {width:100%}
+.sechr {margin: 5% auto;}
+.box {width: 50%;}
+.width {width: fit-content;padding: 15px;font-size: 23px;}
+.box .button {padding: 10px;}
+.box > a {position: relative;left: 7vw; top: 6vw;font-size: 20px;}
+.container {padding: 40px 32px;}
+.container .para {margin: 0 0 7vw 0;}
+.container .button {padding: 10px;font-size: 20px;width: fit-content;}
+.about {width: 100%;text-align: left;}
+.parafluid {margin: 8% 12%;}
+.column1 {width: 30%;}
+.feature .column1 {margin: 0 1.6%;padding: 28px;}
+.featureimg {height: 330px;}
+.feature .button {padding: 15px;height: fit-content;margin: 11% 0;}
+.side {padding: 10px 0 0 60px;}
+.size {font-size: 25px;}
+.shade {font-size: 22px;color: #4f4c4c;}
+.raw {margin: 6% 0;}
+.raw > input {width: 100%;accent-color: rgba(214, 211, 24, 0.988);}
+.raw > input:hover {accent-color: blue;}
+.end {text-align: right;}   
+.up > img {width: 100%;border-top-right-radius: 35px;border-top-left-radius: 35px;height: 400px;}
+.profile {padding: 30px;}
+.profile .column1 {margin: 0 1.7%;}
+.down {padding: 45px;}
+.title {font-size: 22px;margin: 0;}
+.down .shade {margin: 0;}
+.words {font-size: 18px;}
+.userfluid > img {border-radius: 50%;height: 250px;width: 250px;}
+.userfluid {width: 70%;margin: 10% auto;}
+.main {padding: 10px;}
+.main1 {width: 95%; margin: 5% auto;}
+.main-img {padding: 40px;}
+.main-img > img {width: 100%;border-top-right-radius: 35px;border-top-left-radius: 35px;}
+.main-img .sechr {margin: 3% auto 0;}
+.mainfluid {width: 95%;margin: 0 auto;padding: 0 0 30px;}
+.mainfluid .button {height: fit-content;padding: 15px;margin: 0 2%;}
+.mainbutton {width: 50%;margin: auto;text-align: end;}
+.partner .column1 {margin: 10% 5%; text-align: center;}
+.png {width: 150px;height: 100px;}
+.partner .button {height: fit-content;padding: 15px;width: fit-content;margin: 0 auto;}
+.subscribe {width: 60%;margin: 5% auto;}
+.subfluid {padding: 5vw 53px;}
+.flex .sub {margin: 0 auto 0 0;padding: 10px;}
+input.sub {width:35%;border-radius: 10px;border: 1px transparent;}
+.subfluid .button {padding: 18px;}
+input::placeholder {font-size: 17px;}
+.contact {margin: 10% auto 2%;}
+.detail {width: 85%;margin: 2% auto;}
+.detail .column {padding: 0;margin: 0 5%;}
+.logo .bi {color: rgba(214, 211, 24, 0.988);}
+.logo > p {font-size: 5vw;}
+.just {text-align: left; margin: 10%;}
+.just .para {margin: 0;}
+.footer {width: 100%;}
+.iframe {width:100%;height:600px;}
+
+@media all and (min-width:5px) and (max-width:767.98px) {
+    .column {width: 100%; padding: 0;}
+    .column1 {width: 100%;}
+    .flex {display: block;}
+    .heading {font-size: 50px;}
+    .para {font-size: 27px;text-align: center;}
+    .letter {font-size: 22px;}
+    .border {border-radius: 0;}
+    .box {width: 100%;}
+    .fluid {width: 94%;}
+    .navigation {display: flex;}
+    .navhead {margin: auto;width: fit-content;}
+    .navigation .flex {width: 100%;padding: inherit;}
+    .list {float: none;}
+    .list > a {padding: 13px;}
+    .navigation .button {width: 45%;margin: auto;}
+    .banner .heading {text-align: center;}
+    .banner .button {width: fit-content;margin: auto;display: inherit;}
+    .imgcontainer {margin: 10% 2%;}
+    .section {width: 98%;margin: 0 auto;}
+    .width {width: fit-content;font-size: 18px;}
+    .box .button {margin: 2% auto;padding: 10px;}
+    .box > a {position: static;display: block;width: 45%;}
+    .container .button {margin: auto;}
+    .about {margin: 20% 0;}
+    .feature .flex {width: 100%;}
+    .feature .column1 {width: auto; margin: 10% auto;}
+    .feature .button {margin: 5% auto;width: fit-content;display: block;}
+    .mob > p {display: none;}
+    .skills {text-align: center;margin: 0 5%;}
+    .raw .flex {display: flex;text-align: justify;}
+    .team .shade {text-align: center;}
+    .up > img {height: 300px;border-top-right-radius: 0;border-top-left-radius: 0;}
+    .profile .column1 {margin: 6% auto;}
+    .userfluid {width: 75%;}
+    .main-img > img {border-top-right-radius: 0;border-top-left-radius: 0;}
+    .mainfluid .button {width: 45%;}
+    .mainbutton {width: 100%;}
+    .mainbutton .button {width: 45%;display: block;margin: auto;}
+    .partner .column1 {margin: 10% auto;}
+    .subscribe {width: 95%;}
+    .subfluid {padding: 10px 0;}
+    .flex .sub {margin: 2% auto;width: 75%;display: block;}
+    .subfluid .button {padding: 8px;}
+    .detail .column {margin: auto;}
+    .logo-cntr {display: flex;}
+    .logo {width: 25%;}
+    .logo > p {font-size: 50px;}
+    .just {margin: 10% auto;}
+    .just .shade {text-align: center;}
+    .iframe {height: 400px;}
+}
+@media all and (min-width:768px) and (max-width:992px){
+    .letter {font-size: 25px;}
+    .navigation {display: block;}
+    .navhead {margin: auto;width: fit-content;}
+    .navigation .flex {width: 100%;padding: inherit;display: block;}
+    .list {float: none;}
+    .list > a {padding: 13px;}
+    .navigation .button {width: fit-content;margin: auto;}
+    .box .button {width: fit-content;display: block ruby;}
+    .side {padding: 0px 0 0 60px;}
+    .subscribe {width: 70%;}
+    .subfluid {padding: 30px 20px;}
+    input.sub {width: 30%;}
+    .heading {font-size: 55px;}
+    .feature .flex {display: block;}
+    .feature .column1 {width: auto;margin: 2% auto;}
+    .column1 .mob {display: flex;}
+    .feature .button {margin: auto;position: relative;right: 200px;}
+    .profile {padding: 20px;}
+    .down {padding: 15px;}
+    .up > img {height: 250px;}
+    .profile .column1 {padding: 0 0 20px 0;}
+    .iframe {height: 400px;}
+}
